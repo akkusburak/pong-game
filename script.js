@@ -92,10 +92,9 @@ function collision(b, p) {
 function resetRound() {
   ball.speed = 5;
   computerLevel = 0.08;
-  ball.velocityX = ball.speed;
+  ball.velocityX = -ball.speed;
   ball.x = canvas.width / 2;
   ball.y = canvas.height / 2;
-  ball.velocityX = -ball.velocityX;
 }
 
 // update game elements
